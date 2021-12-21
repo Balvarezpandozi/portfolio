@@ -1,0 +1,11 @@
+Guide for all files and folders in the project
+
+Views directory: contains all the html files that the application will show as well as the partials and layouts.
+Views > layouts: contains a boilerplate for every page on the website
+Views > partials: contains all the partials for the website
+Public: contains all the scripts, styling(css files) and resources(images, sounds) the website needs. Ex: <img src="/images/imagename.jpg">
+Public > res: contains all the images or sounds that the website utilizes
+Public > res > images: contains all the full quality images the the website utilizes
+Public > res > lazyimages: contains all the images in low quality to load first so that the website loads faster
+Public > scripts: contains all the javascripts files that the website utilizes in the front end
+Public > styling: contains all the css files the website utilizes
