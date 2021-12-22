@@ -98,14 +98,15 @@ const allSections = document.querySelectorAll("section");
 
 // This function reveals sections as the observer intersects them
 const revealSection = function (entries, observer) {
-  //grab section
-  const [entry] = entries;
-  //if the section is read but has not be intersected, discard it
-  if (!entry.isIntersecting) return;
-  //Show section
-  entry.target.classList.remove("section-hidden");
-  //Stop tracking given section
-  observer.unobserve(entry.target);
+  //Loop through all entries caught by the observer
+  entries.forEach((entry) => {
+    //if the section is read but has not be intersected, discard it
+    if (!entry.isIntersecting) return;
+    //Show section
+    entry.target.classList.remove("section-hidden");
+    //Stop tracking given section
+    observer.unobserve(entry.target);
+  });
 };
 
 //Set up observer
