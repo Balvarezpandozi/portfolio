@@ -538,6 +538,27 @@ footer a {
   filter: invert();
 }
 /* </FOOTER STYLING ENDS> */
+/* <Not Found STYLING starts> */
+.full-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.error-title {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.error-subtitle {
+  background-image: var(--blue-gradient);
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+/* </Not found STYLING ENDS> */
 
 /* General classes */
 .lazy-img {
@@ -665,6 +686,14 @@ b {
     width: 16rem;
     margin-right: 0.5rem;
   }
+
+  .error-title {
+    font-size: 5rem;
+  }
+
+  .error-subtitle {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -721,12 +750,29 @@ b {
   .project-button {
     text-align: center;
   }
+
+  .error-title {
+    font-size: 4rem;
+  }
+
+  .error-subtitle {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   section {
     padding: 0.25rem;
   }
+
+  .nav-logo {
+    height: 4rem;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
   .icon {
     margin: 0 1rem;
     height: 4rem;
@@ -788,5 +834,13 @@ b {
   }
   .title {
     font-size: 1.75rem;
+  }
+
+  .error-title {
+    font-size: 2.5rem;
+  }
+
+  .error-subtitle {
+    font-size: 2rem;
   }
 }
