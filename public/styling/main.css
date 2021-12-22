@@ -1,4 +1,7 @@
+/* This is the main file that contains all the styling of the website */
+
 /* Fonts */
+/* This line imports fonts from the google API */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,900&family=Roboto:wght@400;700&display=swap");
 /* Reference */
 /* 
@@ -6,6 +9,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+/* This :root object allows to create variable for elements in css, such as colors, fonts, gradients, etc. It also allows JS to interact with css */
 :root {
   /* COLORS */
   --navy-blue: rgb(0, 11, 78);

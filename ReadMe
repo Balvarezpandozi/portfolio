@@ -9,3 +9,4 @@ Public > res > images: contains all the full quality images the the website util
 Public > res > lazyimages: contains all the images in low quality to load first so that the website loads faster
 Public > scripts: contains all the javascripts files that the website utilizes in the front end
 Public > styling: contains all the css files the website utilizes
+node_modules directory: Contains all the code given by all the modules
