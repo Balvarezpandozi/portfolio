@@ -208,6 +208,12 @@ nav {
   margin: 0;
 }
 
+.work-experience-company-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../res/images/exabeamlogo.png);
+}
+
 .job-button:hover {
   border-radius: 10px 10px 0px 0px;
   background-color: var(--mustard);
