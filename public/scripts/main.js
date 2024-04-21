@@ -1,4 +1,4 @@
-// This script contains all the functionality of the website.
+// This script contains all the frontend functionality of the website.
 
 //Navbar toggle button
 const navToggleButton = document.getElementsByClassName("toggle-button")[0];

@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/links", (req, res) => {
+  res.render("links");
+});
+
 // this route catches all request that have not been specified(basically every request but the base domain for this simple application). Then, it renders notfound.ejs from the views directory to show the error page.
 app.all("*", (req, res) => {
   res.render("notfound");

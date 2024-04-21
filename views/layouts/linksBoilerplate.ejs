@@ -6,20 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/res/images/foregroundlogo_v2.png" />
     <link rel="stylesheet" href="styling/main.css" />
-    <title>Bryan ALvarez: Portfolio</title>
+    <link rel="stylesheet" href="styling/links.css" />
+    <title>Bryan Alvarez Links</title>
   </head>
   <body>
-    <nav>
-      <a href="/" class="nav-title">
-        <img
-          src="res/lazyimages/foregroundlogo_v2-lazy.png"
-          data-src="res/images/foregroundlogo_v2.png"
-          alt="Bryan Alvarez logo"
-          class="nav-logo lazy-img"
-        />
-        Bryan Alvarez
-      </a>
-    </nav>
+    <!-- this line includes the navbar partial into the boilerplate -->
+    <%- include('../partials/linkTreeNavbar') %>
     <!-- This line is where the content of any html that uses the boilerplate will be placed -->
     <main><%-body%></main>
     <!-- this line includes the footer partial into the boilerplate -->
@@ -28,4 +20,4 @@
   <script src="scripts/observer.js"></script>
 </html>
 
-<!-- This template is used for the error page and it has its own navbar because it does not contain any of the shortcuts to the main page sections because it does not have them -->
+<!-- This boilerplate is meant to work as link tree to showcase a couple of links to my social media or any info -->
