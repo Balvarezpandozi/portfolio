@@ -1,3 +1,11 @@
+//Navbar toggle button
+const navToggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+navToggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
+
 //lazy loading images
 const imgTargets = document.querySelectorAll("img[data-src]");
 //This function takes all images as they are intersected by the observer and changes its source to a better quality image and once it loads it takes away the filter they posses
