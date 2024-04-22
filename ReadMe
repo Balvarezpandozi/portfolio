@@ -10,3 +10,12 @@ Public > res > lazyimages: contains all the images in low quality to load first 
 Public > scripts: contains all the javascripts files that the website utilizes in the front end
 Public > styling: contains all the css files the website utilizes
 node_modules directory: Contains all the code given by all the modules
+
+Issues that were simple to solve but took me hours to figure out:
+
+- Images, scripts, stylesheets were not loading when I added route blog/:article. The solution was to add a "/" before all these elements on the HTMLs for the website. 
+    - Time to figure out 3 hours. 
+    - Frustration level 7 out of 10. 
+    - Solving satisfaction 10 out of 10.
+    - Lesson learned: Express static is annoying. Next time if you get stuck for more than 30 minutes start googling. It didn't directly help for this but it drove my attention to other parts of the code.
+
