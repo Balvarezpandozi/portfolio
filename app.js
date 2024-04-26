@@ -26,9 +26,16 @@ app.get("/blog", (req, res) => {
   res.render("blog/index");
 })
 
+//This route will not stay: eventually a database will store all articles and each article will have one route and they will be obtained by id
 app.get("/blog/article", (req, res) => {
   res.render("blog/article");
 });
+
+//This route will also go away when database is implemented
+app.get("/blog/unwrittenrulesofsocialdancing", (req, res) => {
+  res.render("blog/unwrittenrulesofsocialdancing", {articleTitle: "Unwritten Rules of Social Dancing"});
+});
+
 
 // this route catches all request that have not been specified(basically every request but the base domain for this simple application). Then, it renders notfound.ejs from the views directory to show the error page.
 app.all("*", (req, res) => {
