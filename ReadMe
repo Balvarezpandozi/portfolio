@@ -19,3 +19,4 @@ Issues that were simple to solve but took me hours to figure out:
     - Solving satisfaction 10 out of 10.
     - Lesson learned: Express static is annoying. Next time if you get stuck for more than 30 minutes start googling. It didn't directly help for this but it drove my attention to other parts of the code.
 
+- This website is deployed in Namecheap which is not really good at providing Continous Deployment so I thought there was a production error that I could not replicate locally but I just needed to manually reset the node app on the namecheap Cpanel.
