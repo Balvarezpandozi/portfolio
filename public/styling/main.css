@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* This line imports fonts from the google API */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,900&family=Roboto:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,900&family=Roboto:wght@400;700&display=swap"); */
 /* Reference */
 /* 
 font-family: 'Montserrat', sans-serif;
@@ -852,5 +852,9 @@ b {
 
   .error-subtitle {
     font-size: 2rem;
+  }
+
+  .small-flex-vertically {
+    flex-direction: column;
   }
 }
